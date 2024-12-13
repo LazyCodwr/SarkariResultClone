@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="links">
             <ul className='flex items-center justify-center gap-6'>
                 <NavLink to="/"><li className='hover:text-[#E74C3C] transition-colors'>Home</li></NavLink>
-                <NavLink to="/jobs"><li className='hover:text-[#E74C3C] transition-colors'>Jobs</li></NavLink>
-                <NavLink to="/result"><li className='hover:text-[#E74C3C] transition-colors'>Results</li></NavLink>
+                <NavLink to="/job"><li className='hover:text-[#E74C3C] transition-colors'>Jobs</li></NavLink>
+                <NavLink to="/job"><li className='hover:text-[#E74C3C] transition-colors'>Results</li></NavLink>
             </ul>
         </div>
         <div className="search flex items-center justify-center gap-4 bg-primary p-2 rounded-lg">
